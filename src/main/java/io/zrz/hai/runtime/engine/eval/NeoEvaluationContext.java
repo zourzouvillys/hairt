@@ -2,8 +2,8 @@ package io.zrz.hai.runtime.engine.eval;
 
 import javax.json.JsonObject;
 
-import io.zrz.hai.symbolic.HModule;
-import io.zrz.hai.symbolic.type.HDeclType;
+import io.zrz.hai.type.HDeclType;
+import io.zrz.hai.type.HModule;
 import lombok.Getter;
 
 /**

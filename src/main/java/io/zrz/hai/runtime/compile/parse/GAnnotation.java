@@ -2,7 +2,7 @@ package io.zrz.hai.runtime.compile.parse;
 
 import java.util.Map;
 
-import io.zrz.hai.symbolic.expr.HExpr;
+import io.zrz.hai.expr.HExpr;
 
 public interface GAnnotation {
 

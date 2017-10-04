@@ -5,7 +5,7 @@ import java.util.Objects;
 
 import io.zrz.hai.runtime.ZAny;
 import io.zrz.hai.runtime.ZNode;
-import io.zrz.hai.symbolic.HMethod;
+import io.zrz.hai.type.HMethod;
 
 public class EInvokeTarget {
 

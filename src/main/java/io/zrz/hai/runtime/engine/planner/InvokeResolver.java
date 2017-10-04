@@ -1,11 +1,11 @@
 package io.zrz.hai.runtime.engine.planner;
 
+import io.zrz.hai.expr.AbstractHExprVisitor;
+import io.zrz.hai.expr.HExpr;
+import io.zrz.hai.expr.HMemberExpr;
 import io.zrz.hai.runtime.ZNode;
-import io.zrz.hai.symbolic.HMember;
-import io.zrz.hai.symbolic.HMethod;
-import io.zrz.hai.symbolic.expr.AbstractHExprVisitor;
-import io.zrz.hai.symbolic.expr.HExpr;
-import io.zrz.hai.symbolic.expr.HMemberExpr;
+import io.zrz.hai.type.HMember;
+import io.zrz.hai.type.HMethod;
 
 /**
  * generates an EIndexTarget from an expression.

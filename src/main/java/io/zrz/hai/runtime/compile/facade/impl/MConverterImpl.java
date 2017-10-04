@@ -4,8 +4,8 @@ import io.zrz.hai.runtime.compile.facade.MArgument;
 import io.zrz.hai.runtime.compile.facade.MConverter;
 import io.zrz.hai.runtime.compile.facade.MOutputType;
 import io.zrz.hai.runtime.compile.facade.MType;
-import io.zrz.hai.symbolic.HMethod;
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.type.HMethod;
+import io.zrz.hai.type.HType;
 import lombok.Getter;
 
 public class MConverterImpl implements MConverter {

@@ -1,6 +1,6 @@
 package io.zrz.hai.runtime;
 
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.type.HType;
 
 public class ZTuple extends ZValue {
 

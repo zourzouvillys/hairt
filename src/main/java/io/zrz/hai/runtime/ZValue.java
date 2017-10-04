@@ -3,8 +3,8 @@ package io.zrz.hai.runtime;
 import javax.json.Json;
 import javax.json.JsonValue;
 
-import io.zrz.hai.symbolic.expr.HConstExpr;
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.expr.HConstExpr;
+import io.zrz.hai.type.HType;
 import lombok.Getter;
 
 /**

@@ -8,7 +8,7 @@ import io.zrz.hai.runtime.compile.facade.MField;
 import io.zrz.hai.runtime.compile.facade.MOutputKind;
 import io.zrz.hai.runtime.compile.facade.MOutputType;
 import io.zrz.hai.runtime.compile.facade.MViewKind;
-import io.zrz.hai.symbolic.type.HDeclType;
+import io.zrz.hai.type.HDeclType;
 
 public class MOutputStructType implements MOutputType {
 

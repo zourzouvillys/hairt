@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 import io.zrz.hai.runtime.compile.facade.MRegistry;
-import io.zrz.hai.symbolic.HModule;
-import io.zrz.hai.symbolic.HTypeUtils;
-import io.zrz.hai.symbolic.type.HDeclKind;
-import io.zrz.hai.symbolic.type.HViewType;
+import io.zrz.hai.type.HDeclKind;
+import io.zrz.hai.type.HModule;
+import io.zrz.hai.type.HTypeUtils;
+import io.zrz.hai.type.HViewType;
 import lombok.Getter;
 
 /**

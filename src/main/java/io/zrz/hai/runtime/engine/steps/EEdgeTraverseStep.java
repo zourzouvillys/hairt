@@ -1,10 +1,10 @@
 package io.zrz.hai.runtime.engine.steps;
 
-import io.zrz.hai.haiscript.IndentPrintWriter;
-import io.zrz.hai.symbolic.HConnection;
-import io.zrz.hai.symbolic.HLink;
-import io.zrz.hai.symbolic.HMember;
-import io.zrz.hai.symbolic.type.HDeclType;
+import io.zrz.hai.syntax.IndentPrintWriter;
+import io.zrz.hai.type.HConnection;
+import io.zrz.hai.type.HDeclType;
+import io.zrz.hai.type.HLink;
+import io.zrz.hai.type.HMember;
 import lombok.Getter;
 
 /**

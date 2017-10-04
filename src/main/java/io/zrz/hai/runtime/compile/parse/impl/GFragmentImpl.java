@@ -5,13 +5,13 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import io.zrz.hai.haiscript.IndentPrintWriter;
 import io.zrz.hai.runtime.compile.facade.MOutputType;
 import io.zrz.hai.runtime.compile.parse.GFragment;
-import io.zrz.hai.symbolic.HLoader;
-import io.zrz.hai.symbolic.HTypeUtils;
-import io.zrz.hai.symbolic.type.HTupleType;
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.syntax.IndentPrintWriter;
+import io.zrz.hai.type.HLoader;
+import io.zrz.hai.type.HTupleType;
+import io.zrz.hai.type.HType;
+import io.zrz.hai.type.HTypeUtils;
 import lombok.Getter;
 
 public class GFragmentImpl implements GFragment {

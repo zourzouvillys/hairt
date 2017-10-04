@@ -8,9 +8,9 @@ import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.Relationship;
 
 import io.zrz.hai.runtime.ZValue;
-import io.zrz.hai.symbolic.HConnection;
-import io.zrz.hai.symbolic.HLink;
-import io.zrz.hai.symbolic.type.HDeclType;
+import io.zrz.hai.type.HConnection;
+import io.zrz.hai.type.HDeclType;
+import io.zrz.hai.type.HLink;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 

@@ -1,8 +1,8 @@
 package io.zrz.hai.runtime;
 
-import io.zrz.hai.symbolic.HState;
-import io.zrz.hai.symbolic.HTypeUtils;
-import io.zrz.hai.symbolic.type.HDeclType;
+import io.zrz.hai.type.HDeclType;
+import io.zrz.hai.type.HState;
+import io.zrz.hai.type.HTypeUtils;
 
 public interface ZPropertyContainer extends ZRef {
 

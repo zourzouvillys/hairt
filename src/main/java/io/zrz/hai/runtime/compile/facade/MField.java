@@ -1,6 +1,6 @@
 package io.zrz.hai.runtime.compile.facade;
 
-import io.zrz.hai.symbolic.HMember;
+import io.zrz.hai.type.HMember;
 
 /**
  * A single field, which could be backed as state, a method, alias, or property.

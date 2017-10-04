@@ -1,8 +1,8 @@
 package io.zrz.hai.runtime.engine.eval;
 
-import io.zrz.hai.symbolic.HConnection;
-import io.zrz.hai.symbolic.HLink;
-import io.zrz.hai.symbolic.type.HDeclType;
+import io.zrz.hai.type.HConnection;
+import io.zrz.hai.type.HDeclType;
+import io.zrz.hai.type.HLink;
 
 /**
  * common node interface, regardless of being backed by disk or memory.

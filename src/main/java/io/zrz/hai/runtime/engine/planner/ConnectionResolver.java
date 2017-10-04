@@ -5,19 +5,19 @@ import java.util.Optional;
 import java.util.OptionalInt;
 import java.util.stream.Collectors;
 
+import io.zrz.hai.expr.AbstractHExprVisitor;
+import io.zrz.hai.expr.HBinaryExpr;
+import io.zrz.hai.expr.HBlockExpr;
+import io.zrz.hai.expr.HExpr;
+import io.zrz.hai.expr.HGotoExpr;
+import io.zrz.hai.expr.HMemberExpr;
+import io.zrz.hai.expr.HTupleInitExpr;
+import io.zrz.hai.expr.HVarExpr;
 import io.zrz.hai.runtime.ZAny;
 import io.zrz.hai.runtime.ZConnection;
 import io.zrz.hai.runtime.ZNode;
-import io.zrz.hai.symbolic.HConnection;
-import io.zrz.hai.symbolic.HMember;
-import io.zrz.hai.symbolic.expr.AbstractHExprVisitor;
-import io.zrz.hai.symbolic.expr.HBinaryExpr;
-import io.zrz.hai.symbolic.expr.HBlockExpr;
-import io.zrz.hai.symbolic.expr.HExpr;
-import io.zrz.hai.symbolic.expr.HGotoExpr;
-import io.zrz.hai.symbolic.expr.HMemberExpr;
-import io.zrz.hai.symbolic.expr.HTupleInitExpr;
-import io.zrz.hai.symbolic.expr.HVarExpr;
+import io.zrz.hai.type.HConnection;
+import io.zrz.hai.type.HMember;
 
 public class ConnectionResolver extends AbstractHExprVisitor<ZConnection> {
 

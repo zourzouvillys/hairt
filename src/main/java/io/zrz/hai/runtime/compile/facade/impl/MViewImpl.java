@@ -4,8 +4,8 @@ import io.zrz.hai.runtime.compile.facade.MArgument;
 import io.zrz.hai.runtime.compile.facade.MInputType;
 import io.zrz.hai.runtime.compile.facade.MView;
 import io.zrz.hai.runtime.compile.facade.MViewKind;
-import io.zrz.hai.symbolic.HModule;
-import io.zrz.hai.symbolic.type.HViewType;
+import io.zrz.hai.type.HModule;
+import io.zrz.hai.type.HViewType;
 import lombok.Getter;
 
 public class MViewImpl implements MView {

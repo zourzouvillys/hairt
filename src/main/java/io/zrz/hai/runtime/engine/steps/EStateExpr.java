@@ -2,8 +2,8 @@ package io.zrz.hai.runtime.engine.steps;
 
 import java.util.Objects;
 
-import io.zrz.hai.haiscript.IndentPrintWriter;
-import io.zrz.hai.symbolic.HState;
+import io.zrz.hai.syntax.IndentPrintWriter;
+import io.zrz.hai.type.HState;
 import lombok.Getter;
 
 public class EStateExpr implements EExpr, EStep {

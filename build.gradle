@@ -67,8 +67,7 @@ dependencies {
 	
 }
 
-sourceSets.main.antlr.srcDirs = ['src/main/antlr/grammars']
-
+sourceSets.main.antlr.srcDirs = [ 'src/main/antlr/grammars' ]
 
 generateGrammarSource {
   maxHeapSize = "64m"

@@ -6,12 +6,12 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
 
+import io.zrz.hai.expr.HVar;
 import io.zrz.hai.runtime.ZAny;
 import io.zrz.hai.runtime.ZEntity;
 import io.zrz.hai.runtime.ZNode;
-import io.zrz.hai.symbolic.expr.HVar;
-import io.zrz.hai.symbolic.type.HNodeType;
-import io.zrz.hai.symbolic.type.HTupleType;
+import io.zrz.hai.type.HNodeType;
+import io.zrz.hai.type.HTupleType;
 
 public class EFrameContext {
 

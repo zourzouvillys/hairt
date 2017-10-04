@@ -8,9 +8,9 @@ import io.zrz.hai.runtime.compile.facade.MOutputKind;
 import io.zrz.hai.runtime.compile.facade.MOutputType;
 import io.zrz.hai.runtime.compile.facade.MShape;
 import io.zrz.hai.runtime.compile.facade.MViewKind;
-import io.zrz.hai.symbolic.HTypeToken;
-import io.zrz.hai.symbolic.type.HConnectionType;
-import io.zrz.hai.symbolic.type.HDeclType;
+import io.zrz.hai.type.HConnectionType;
+import io.zrz.hai.type.HDeclType;
+import io.zrz.hai.type.HTypeToken;
 
 public class MConnectionTypeImpl extends AbstractMOutputTypeImpl implements MOutputType {
 

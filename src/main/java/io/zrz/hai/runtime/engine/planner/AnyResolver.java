@@ -5,23 +5,23 @@ import java.util.Objects;
 import java.util.OptionalInt;
 import java.util.stream.Collectors;
 
+import io.zrz.hai.expr.AbstractHExprVisitor;
+import io.zrz.hai.expr.HBinaryExpr;
+import io.zrz.hai.expr.HConstExpr;
+import io.zrz.hai.expr.HExpr;
+import io.zrz.hai.expr.HIndexAccessExpr;
+import io.zrz.hai.expr.HMemberExpr;
+import io.zrz.hai.expr.HThisExpr;
+import io.zrz.hai.expr.HTupleInitExpr;
+import io.zrz.hai.expr.HTypeBinaryExpr;
+import io.zrz.hai.expr.HVarExpr;
 import io.zrz.hai.runtime.ZAny;
 import io.zrz.hai.runtime.ZNode;
 import io.zrz.hai.runtime.ZValue;
-import io.zrz.hai.symbolic.HConnection;
-import io.zrz.hai.symbolic.HLink;
-import io.zrz.hai.symbolic.HMember;
-import io.zrz.hai.symbolic.expr.AbstractHExprVisitor;
-import io.zrz.hai.symbolic.expr.HBinaryExpr;
-import io.zrz.hai.symbolic.expr.HConstExpr;
-import io.zrz.hai.symbolic.expr.HExpr;
-import io.zrz.hai.symbolic.expr.HIndexAccessExpr;
-import io.zrz.hai.symbolic.expr.HMemberExpr;
-import io.zrz.hai.symbolic.expr.HThisExpr;
-import io.zrz.hai.symbolic.expr.HTupleInitExpr;
-import io.zrz.hai.symbolic.expr.HTypeBinaryExpr;
-import io.zrz.hai.symbolic.expr.HVarExpr;
-import io.zrz.hai.symbolic.type.HNodeType;
+import io.zrz.hai.type.HConnection;
+import io.zrz.hai.type.HLink;
+import io.zrz.hai.type.HMember;
+import io.zrz.hai.type.HNodeType;
 
 /**
  * resolves to absolutely anything. used when we don't know or care what the

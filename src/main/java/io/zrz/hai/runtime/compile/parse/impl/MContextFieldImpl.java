@@ -8,7 +8,7 @@ import io.zrz.hai.runtime.compile.facade.MMutability;
 import io.zrz.hai.runtime.compile.facade.MOutputType;
 import io.zrz.hai.runtime.compile.facade.MShape;
 import io.zrz.hai.runtime.compile.facade.MViewContext;
-import io.zrz.hai.symbolic.HMember;
+import io.zrz.hai.type.HMember;
 
 public class MContextFieldImpl implements MField {
 

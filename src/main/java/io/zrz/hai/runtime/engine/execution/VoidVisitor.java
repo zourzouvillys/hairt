@@ -1,9 +1,9 @@
 package io.zrz.hai.runtime.engine.execution;
 
+import io.zrz.hai.expr.AbstractHExprVisitor;
+import io.zrz.hai.expr.HBinaryExpr;
+import io.zrz.hai.expr.HExpr;
 import io.zrz.hai.runtime.ZAny;
-import io.zrz.hai.symbolic.expr.AbstractHExprVisitor;
-import io.zrz.hai.symbolic.expr.HBinaryExpr;
-import io.zrz.hai.symbolic.expr.HExpr;
 
 /**
  * A visitor which handles expressions in a void context.

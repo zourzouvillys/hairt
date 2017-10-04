@@ -2,9 +2,9 @@ package io.zrz.hai.runtime.engine.steps;
 
 import java.util.Objects;
 
-import io.zrz.hai.haiscript.IndentPrintWriter;
 import io.zrz.hai.runtime.ZAny;
-import io.zrz.hai.symbolic.HConnection;
+import io.zrz.hai.syntax.IndentPrintWriter;
+import io.zrz.hai.type.HConnection;
 import lombok.Getter;
 
 public class EConnectionIndexStep implements EStep {

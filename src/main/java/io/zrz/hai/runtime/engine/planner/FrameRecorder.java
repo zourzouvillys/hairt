@@ -10,10 +10,10 @@ import io.zrz.hai.runtime.engine.actions.SetLinkAction;
 import io.zrz.hai.runtime.engine.actions.SetStateAction;
 import io.zrz.hai.runtime.engine.steps.EConnectionStep;
 import io.zrz.hai.runtime.engine.steps.EStep;
-import io.zrz.hai.symbolic.HConnection;
-import io.zrz.hai.symbolic.HLink;
-import io.zrz.hai.symbolic.HState;
-import io.zrz.hai.symbolic.type.HNodeType;
+import io.zrz.hai.type.HConnection;
+import io.zrz.hai.type.HLink;
+import io.zrz.hai.type.HNodeType;
+import io.zrz.hai.type.HState;
 import lombok.Getter;
 
 public class FrameRecorder {

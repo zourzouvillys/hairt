@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
 
-import io.zrz.hai.haiscript.IndentPrintWriter;
+import io.zrz.hai.expr.HTupleInitExpr;
 import io.zrz.hai.runtime.compile.facade.MField;
 import io.zrz.hai.runtime.compile.facade.MMutability;
 import io.zrz.hai.runtime.compile.facade.MShape;
@@ -15,11 +15,11 @@ import io.zrz.hai.runtime.compile.parse.GAnnotation;
 import io.zrz.hai.runtime.compile.parse.GAnnotationKind;
 import io.zrz.hai.runtime.compile.parse.GBodyImpl;
 import io.zrz.hai.runtime.compile.parse.GSelection;
-import io.zrz.hai.symbolic.HLoader;
-import io.zrz.hai.symbolic.HTypeUtils;
-import io.zrz.hai.symbolic.expr.HTupleInitExpr;
-import io.zrz.hai.symbolic.type.HDeclKind;
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.syntax.IndentPrintWriter;
+import io.zrz.hai.type.HDeclKind;
+import io.zrz.hai.type.HLoader;
+import io.zrz.hai.type.HType;
+import io.zrz.hai.type.HTypeUtils;
 import lombok.Getter;
 
 public class GFieldSelection implements GSelection, GSelectionImpl {

@@ -1,7 +1,7 @@
 package io.zrz.hai.runtime.engine.steps;
 
-import io.zrz.hai.haiscript.IndentPrintWriter;
-import io.zrz.hai.symbolic.type.HDeclType;
+import io.zrz.hai.syntax.IndentPrintWriter;
+import io.zrz.hai.type.HDeclType;
 import lombok.Getter;
 
 public class ENewNodeStep implements EStep {

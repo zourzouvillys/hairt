@@ -6,16 +6,16 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import io.zrz.hai.haiscript.IndentPrintWriter;
 import io.zrz.hai.runtime.compile.facade.MField;
 import io.zrz.hai.runtime.compile.facade.MOutputType;
 import io.zrz.hai.runtime.compile.parse.GAnnotation;
 import io.zrz.hai.runtime.compile.parse.GAnnotationKind;
 import io.zrz.hai.runtime.compile.parse.GBodyImpl;
 import io.zrz.hai.runtime.compile.parse.GSelection;
-import io.zrz.hai.symbolic.HLoader;
-import io.zrz.hai.symbolic.type.HDeclType;
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.syntax.IndentPrintWriter;
+import io.zrz.hai.type.HDeclType;
+import io.zrz.hai.type.HLoader;
+import io.zrz.hai.type.HType;
 
 public class GInlineSpreadSelection implements GSelectionImpl, GFragmentSelection {
 

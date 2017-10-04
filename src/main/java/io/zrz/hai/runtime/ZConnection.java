@@ -2,8 +2,8 @@ package io.zrz.hai.runtime;
 
 import java.util.function.Consumer;
 
+import io.zrz.hai.expr.HLambdaExpr;
 import io.zrz.hai.runtime.engine.PagingParams;
-import io.zrz.hai.symbolic.expr.HLambdaExpr;
 
 /**
  * A ZConnection is a logical set of edges.

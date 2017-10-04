@@ -1,7 +1,7 @@
 package io.zrz.hai.runtime.engine.eval;
 
 import io.zrz.hai.runtime.ZValue;
-import io.zrz.hai.symbolic.HConnection;
+import io.zrz.hai.type.HConnection;
 
 public interface IConnection extends Iterable<IEdge> {
 

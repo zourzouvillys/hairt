@@ -5,7 +5,7 @@ import org.eclipse.collections.impl.factory.primitive.LongObjectMaps;
 import org.neo4j.graphdb.Node;
 
 import io.zrz.hai.runtime.engine.concurrency.SnapshotHandle;
-import io.zrz.hai.symbolic.type.HDeclType;
+import io.zrz.hai.type.HDeclType;
 
 /**
  * abstract MVCC access to the store.

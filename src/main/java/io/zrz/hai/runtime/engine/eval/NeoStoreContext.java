@@ -2,8 +2,8 @@ package io.zrz.hai.runtime.engine.eval;
 
 import io.zrz.hai.runtime.ZValue;
 import io.zrz.hai.runtime.engine.steps.EConnectionIteratorStep;
-import io.zrz.hai.symbolic.HConnection;
-import io.zrz.hai.symbolic.HLink;
+import io.zrz.hai.type.HConnection;
+import io.zrz.hai.type.HLink;
 
 /**
  * all access to/from the store is handed to this interface, to support

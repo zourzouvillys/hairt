@@ -6,12 +6,12 @@ import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.Relationship;
 import org.neo4j.graphdb.RelationshipType;
 
-import io.zrz.hai.symbolic.HConnection;
-import io.zrz.hai.symbolic.HLink;
-import io.zrz.hai.symbolic.HModule;
-import io.zrz.hai.symbolic.HState;
-import io.zrz.hai.symbolic.type.HDeclType;
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.type.HConnection;
+import io.zrz.hai.type.HDeclType;
+import io.zrz.hai.type.HLink;
+import io.zrz.hai.type.HModule;
+import io.zrz.hai.type.HState;
+import io.zrz.hai.type.HType;
 
 public class ENeoUtils {
 

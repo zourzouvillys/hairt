@@ -8,9 +8,9 @@ import com.google.common.collect.Maps;
 import io.zrz.graphql.core.doc.GQLArgument;
 import io.zrz.graphql.core.doc.GQLDirective;
 import io.zrz.graphql.core.value.GQLValueConverters;
+import io.zrz.hai.expr.HExpr;
 import io.zrz.hai.runtime.compile.parse.GAnnotation;
 import io.zrz.hai.runtime.compile.parse.GAnnotationKind;
-import io.zrz.hai.symbolic.expr.HExpr;
 
 public class GAnnotations {
 

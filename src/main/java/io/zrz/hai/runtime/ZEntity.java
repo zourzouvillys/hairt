@@ -1,6 +1,6 @@
 package io.zrz.hai.runtime;
 
-import io.zrz.hai.symbolic.type.HDeclType;
+import io.zrz.hai.type.HDeclType;
 
 /**
  * an edge or node, that can be stored.

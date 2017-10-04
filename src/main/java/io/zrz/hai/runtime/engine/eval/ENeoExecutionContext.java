@@ -13,9 +13,9 @@ import io.zrz.hai.runtime.engine.results.EResultCollector;
 import io.zrz.hai.runtime.engine.steps.EResultIntent;
 import io.zrz.hai.runtime.engine.steps.EResultIntent.Nested;
 import io.zrz.hai.runtime.engine.steps.EResultIntent.Value;
+import io.zrz.hai.type.HDeclType;
+import io.zrz.hai.type.HModule;
 import io.zrz.hai.runtime.engine.steps.EStep;
-import io.zrz.hai.symbolic.HModule;
-import io.zrz.hai.symbolic.type.HDeclType;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 

@@ -9,9 +9,9 @@ import io.zrz.hai.runtime.compile.facade.MOutputKind;
 import io.zrz.hai.runtime.compile.facade.MOutputType;
 import io.zrz.hai.runtime.compile.facade.MType;
 import io.zrz.hai.runtime.compile.facade.MViewKind;
-import io.zrz.hai.symbolic.HTypeUtils;
-import io.zrz.hai.symbolic.type.HTupleType;
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.type.HTupleType;
+import io.zrz.hai.type.HType;
+import io.zrz.hai.type.HTypeUtils;
 import lombok.Getter;
 
 public class MArrayType implements MOutputType, MInputType {

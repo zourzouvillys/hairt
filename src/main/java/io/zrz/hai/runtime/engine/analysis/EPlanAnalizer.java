@@ -6,7 +6,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import io.zrz.hai.haiscript.IndentPrintWriter;
 import io.zrz.hai.runtime.engine.EExecutionPlan;
 import io.zrz.hai.runtime.engine.steps.EConnectionCountExpr;
 import io.zrz.hai.runtime.engine.steps.EConnectionIndexStep;
@@ -21,6 +20,7 @@ import io.zrz.hai.runtime.engine.steps.ENewNodeStep;
 import io.zrz.hai.runtime.engine.steps.EResultIntent;
 import io.zrz.hai.runtime.engine.steps.EResultIntent.Nested;
 import io.zrz.hai.runtime.engine.steps.EResultIntent.Value;
+import io.zrz.hai.syntax.IndentPrintWriter;
 import io.zrz.hai.runtime.engine.steps.EScalarStep;
 import io.zrz.hai.runtime.engine.steps.EStateExpr;
 import io.zrz.hai.runtime.engine.steps.EStep;

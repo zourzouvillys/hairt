@@ -1,14 +1,14 @@
 package io.zrz.hai.runtime.compile.facade.exec;
 
-import io.zrz.hai.symbolic.HExecutable;
-import io.zrz.hai.symbolic.HMember;
-import io.zrz.hai.symbolic.HMethod;
-import io.zrz.hai.symbolic.expr.AbstractHExprVisitor;
-import io.zrz.hai.symbolic.expr.HBinaryExpr;
-import io.zrz.hai.symbolic.expr.HConstExpr;
-import io.zrz.hai.symbolic.expr.HExpr;
-import io.zrz.hai.symbolic.expr.HIndexAccessExpr;
-import io.zrz.hai.symbolic.expr.HMemberExpr;
+import io.zrz.hai.expr.AbstractHExprVisitor;
+import io.zrz.hai.expr.HBinaryExpr;
+import io.zrz.hai.expr.HConstExpr;
+import io.zrz.hai.expr.HExpr;
+import io.zrz.hai.expr.HIndexAccessExpr;
+import io.zrz.hai.expr.HMemberExpr;
+import io.zrz.hai.type.HExecutable;
+import io.zrz.hai.type.HMember;
+import io.zrz.hai.type.HMethod;
 
 public class InlineExpression extends AbstractHExprVisitor<HExpr> {
 

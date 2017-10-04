@@ -3,16 +3,16 @@ package io.zrz.hai.runtime.engine.planner;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import io.zrz.hai.expr.AbstractHExprVisitor;
+import io.zrz.hai.expr.HExpr;
 import io.zrz.hai.runtime.ZAny;
 import io.zrz.hai.runtime.ZEntity;
 import io.zrz.hai.runtime.ZNode;
 import io.zrz.hai.runtime.engine.EPlannerContext;
-import io.zrz.hai.symbolic.HExecutable;
-import io.zrz.hai.symbolic.HTypeUtils;
-import io.zrz.hai.symbolic.expr.AbstractHExprVisitor;
-import io.zrz.hai.symbolic.expr.HExpr;
-import io.zrz.hai.symbolic.type.HNodeType;
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.type.HExecutable;
+import io.zrz.hai.type.HNodeType;
+import io.zrz.hai.type.HType;
+import io.zrz.hai.type.HTypeUtils;
 import lombok.Getter;
 
 public class PlannerFrame {

@@ -1,13 +1,13 @@
 package io.zrz.hai.runtime.engine.planner;
 
+import io.zrz.hai.expr.HVarExpr;
 import io.zrz.hai.runtime.ZAny;
 import io.zrz.hai.runtime.ZConnection;
 import io.zrz.hai.runtime.ZNode;
 import io.zrz.hai.runtime.ZValue;
-import io.zrz.hai.symbolic.HConnection;
-import io.zrz.hai.symbolic.HLink;
-import io.zrz.hai.symbolic.HState;
-import io.zrz.hai.symbolic.expr.HVarExpr;
+import io.zrz.hai.type.HConnection;
+import io.zrz.hai.type.HLink;
+import io.zrz.hai.type.HState;
 
 public interface EAssignableTarget {
 

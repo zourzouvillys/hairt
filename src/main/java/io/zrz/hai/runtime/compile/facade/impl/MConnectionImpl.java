@@ -1,7 +1,7 @@
 package io.zrz.hai.runtime.compile.facade.impl;
 
-import io.zrz.hai.symbolic.type.HConnectionType;
-import io.zrz.hai.symbolic.type.HTupleType;
+import io.zrz.hai.type.HConnectionType;
+import io.zrz.hai.type.HTupleType;
 
 public class MConnectionImpl {
 

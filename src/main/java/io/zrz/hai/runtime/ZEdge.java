@@ -1,6 +1,6 @@
 package io.zrz.hai.runtime;
 
-import io.zrz.hai.symbolic.type.HEdgeType;
+import io.zrz.hai.type.HEdgeType;
 
 public interface ZEdge extends ZPropertyContainer, ZEntity, ZObject {
 

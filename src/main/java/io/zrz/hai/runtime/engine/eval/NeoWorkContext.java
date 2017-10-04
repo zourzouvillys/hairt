@@ -4,8 +4,8 @@ import java.util.Objects;
 
 import io.zrz.hai.runtime.ZValue;
 import io.zrz.hai.runtime.engine.steps.EConnectionIteratorStep;
-import io.zrz.hai.symbolic.HConnection;
-import io.zrz.hai.symbolic.HLink;
+import io.zrz.hai.type.HConnection;
+import io.zrz.hai.type.HLink;
 
 /**
  * tracks work context information to generate a version clock.

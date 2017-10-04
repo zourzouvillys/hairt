@@ -2,7 +2,7 @@ package io.zrz.hai.runtime.engine;
 
 import java.io.OutputStream;
 
-import io.zrz.hai.haiscript.IndentPrintWriter;
+import io.zrz.hai.syntax.IndentPrintWriter;
 
 public class EExecutionPlanPrinter {
 

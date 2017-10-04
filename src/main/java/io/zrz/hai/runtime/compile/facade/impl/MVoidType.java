@@ -8,8 +8,8 @@ import io.zrz.hai.runtime.compile.facade.MInputType;
 import io.zrz.hai.runtime.compile.facade.MOutputKind;
 import io.zrz.hai.runtime.compile.facade.MOutputType;
 import io.zrz.hai.runtime.compile.facade.MViewKind;
-import io.zrz.hai.symbolic.HTypeToken;
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.type.HType;
+import io.zrz.hai.type.HTypeToken;
 
 public class MVoidType implements MInputType, MOutputType {
 

@@ -1,6 +1,6 @@
 package io.zrz.hai.runtime.engine.actions;
 
-import io.zrz.hai.haiscript.IndentPrintWriter;
+import io.zrz.hai.syntax.IndentPrintWriter;
 
 public class ActionPrinter implements EActionVisitor<Void> {
 

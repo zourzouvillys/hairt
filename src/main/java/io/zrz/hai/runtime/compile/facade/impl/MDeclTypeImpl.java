@@ -12,16 +12,16 @@ import io.zrz.hai.runtime.compile.facade.MField;
 import io.zrz.hai.runtime.compile.facade.MOutputKind;
 import io.zrz.hai.runtime.compile.facade.MOutputType;
 import io.zrz.hai.runtime.compile.facade.MViewKind;
-import io.zrz.hai.symbolic.HConnection;
-import io.zrz.hai.symbolic.HLink;
-import io.zrz.hai.symbolic.HMemberKind;
-import io.zrz.hai.symbolic.HMethod;
-import io.zrz.hai.symbolic.HState;
-import io.zrz.hai.symbolic.HTypeUtils;
-import io.zrz.hai.symbolic.type.HDeclKind;
-import io.zrz.hai.symbolic.type.HDeclType;
-import io.zrz.hai.symbolic.type.HNodeType;
-import io.zrz.hai.symbolic.type.HViewType;
+import io.zrz.hai.type.HConnection;
+import io.zrz.hai.type.HDeclKind;
+import io.zrz.hai.type.HDeclType;
+import io.zrz.hai.type.HLink;
+import io.zrz.hai.type.HMemberKind;
+import io.zrz.hai.type.HMethod;
+import io.zrz.hai.type.HNodeType;
+import io.zrz.hai.type.HState;
+import io.zrz.hai.type.HTypeUtils;
+import io.zrz.hai.type.HViewType;
 
 public class MDeclTypeImpl extends AbstractMOutputTypeImpl implements MOutputType {
 

@@ -6,12 +6,12 @@ import io.zrz.hai.runtime.compile.facade.MField;
 import io.zrz.hai.runtime.compile.facade.MOutputKind;
 import io.zrz.hai.runtime.compile.facade.MOutputType;
 import io.zrz.hai.runtime.compile.facade.MViewKind;
-import io.zrz.hai.symbolic.HConnection;
-import io.zrz.hai.symbolic.HLink;
-import io.zrz.hai.symbolic.HMethod;
-import io.zrz.hai.symbolic.HState;
-import io.zrz.hai.symbolic.HTypeUtils;
-import io.zrz.hai.symbolic.type.HEventType;
+import io.zrz.hai.type.HConnection;
+import io.zrz.hai.type.HEventType;
+import io.zrz.hai.type.HLink;
+import io.zrz.hai.type.HMethod;
+import io.zrz.hai.type.HState;
+import io.zrz.hai.type.HTypeUtils;
 
 /**
  * an event type.

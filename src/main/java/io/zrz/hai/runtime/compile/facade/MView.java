@@ -1,7 +1,7 @@
 package io.zrz.hai.runtime.compile.facade;
 
-import io.zrz.hai.symbolic.HModule;
-import io.zrz.hai.symbolic.type.HViewType;
+import io.zrz.hai.type.HModule;
+import io.zrz.hai.type.HViewType;
 
 /**
  *

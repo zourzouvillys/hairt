@@ -3,10 +3,10 @@ package io.zrz.hai.runtime.compile.parse;
 import java.util.Collection;
 import java.util.Optional;
 
-import io.zrz.hai.haiscript.IndentPrintWriter;
 import io.zrz.hai.runtime.compile.facade.MField;
 import io.zrz.hai.runtime.compile.parse.impl.GSelectionKind;
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.syntax.IndentPrintWriter;
+import io.zrz.hai.type.HType;
 
 public interface GSelection {
 

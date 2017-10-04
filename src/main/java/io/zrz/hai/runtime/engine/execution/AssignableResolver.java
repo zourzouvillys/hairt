@@ -1,14 +1,14 @@
 package io.zrz.hai.runtime.engine.execution;
 
+import io.zrz.hai.expr.AbstractHExprVisitor;
+import io.zrz.hai.expr.HExpr;
+import io.zrz.hai.expr.HMemberExpr;
+import io.zrz.hai.expr.HVarExpr;
 import io.zrz.hai.runtime.ZNode;
-import io.zrz.hai.symbolic.HConnection;
-import io.zrz.hai.symbolic.HLink;
-import io.zrz.hai.symbolic.HMember;
-import io.zrz.hai.symbolic.HState;
-import io.zrz.hai.symbolic.expr.AbstractHExprVisitor;
-import io.zrz.hai.symbolic.expr.HExpr;
-import io.zrz.hai.symbolic.expr.HMemberExpr;
-import io.zrz.hai.symbolic.expr.HVarExpr;
+import io.zrz.hai.type.HConnection;
+import io.zrz.hai.type.HLink;
+import io.zrz.hai.type.HMember;
+import io.zrz.hai.type.HState;
 
 /**
  * generates an EIndexTarget from an expression.

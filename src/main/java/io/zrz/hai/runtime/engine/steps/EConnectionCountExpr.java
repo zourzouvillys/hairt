@@ -1,6 +1,6 @@
 package io.zrz.hai.runtime.engine.steps;
 
-import io.zrz.hai.haiscript.IndentPrintWriter;
+import io.zrz.hai.syntax.IndentPrintWriter;
 import lombok.Getter;
 
 /**

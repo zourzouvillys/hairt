@@ -2,12 +2,12 @@ package io.zrz.hai.runtime;
 
 import java.util.Optional;
 
+import io.zrz.hai.expr.HExpr;
 import io.zrz.hai.runtime.compile.facade.MViewKind;
-import io.zrz.hai.symbolic.HMember;
-import io.zrz.hai.symbolic.HState;
-import io.zrz.hai.symbolic.HTypeUtils;
-import io.zrz.hai.symbolic.expr.HExpr;
-import io.zrz.hai.symbolic.type.HViewType;
+import io.zrz.hai.type.HMember;
+import io.zrz.hai.type.HState;
+import io.zrz.hai.type.HTypeUtils;
+import io.zrz.hai.type.HViewType;
 
 public class HRuntimeUtils {
 

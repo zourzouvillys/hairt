@@ -1,7 +1,7 @@
 package io.zrz.hai.runtime.engine.actions;
 
 import io.zrz.hai.runtime.engine.steps.EStep;
-import io.zrz.hai.symbolic.HLink;
+import io.zrz.hai.type.HLink;
 import lombok.Value;
 
 @Value(staticConstructor = "of")

@@ -1,7 +1,7 @@
 package io.zrz.hai.runtime;
 
-import io.zrz.hai.symbolic.HTypeToken;
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.type.HType;
+import io.zrz.hai.type.HTypeToken;
 
 /**
  * each "partition" contains a single runtime host, which shares types, modules,

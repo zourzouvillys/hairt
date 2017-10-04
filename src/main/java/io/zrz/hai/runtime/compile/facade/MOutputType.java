@@ -5,9 +5,9 @@ import java.util.stream.Stream;
 import com.google.common.base.Splitter;
 
 import io.zrz.hai.runtime.compile.facade.impl.MViewContextImpl;
-import io.zrz.hai.symbolic.HTypeUtils;
-import io.zrz.hai.symbolic.type.HTupleType;
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.type.HTupleType;
+import io.zrz.hai.type.HType;
+import io.zrz.hai.type.HTypeUtils;
 
 /**
  *

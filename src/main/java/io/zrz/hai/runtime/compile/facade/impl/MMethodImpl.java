@@ -8,15 +8,15 @@ import io.zrz.hai.runtime.compile.facade.MOutputType;
 import io.zrz.hai.runtime.compile.facade.MShape;
 import io.zrz.hai.runtime.compile.facade.MViewContext;
 import io.zrz.hai.runtime.compile.facade.MViewKind;
-import io.zrz.hai.symbolic.HMethod;
-import io.zrz.hai.symbolic.HParameter;
-import io.zrz.hai.symbolic.HTypeToken;
-import io.zrz.hai.symbolic.HTypeUtils;
-import io.zrz.hai.symbolic.type.HConnectionType;
-import io.zrz.hai.symbolic.type.HDeclKind;
-import io.zrz.hai.symbolic.type.HNodeType;
-import io.zrz.hai.symbolic.type.HType;
-import io.zrz.hai.symbolic.type.HTypeKind;
+import io.zrz.hai.type.HConnectionType;
+import io.zrz.hai.type.HDeclKind;
+import io.zrz.hai.type.HMethod;
+import io.zrz.hai.type.HNodeType;
+import io.zrz.hai.type.HParameter;
+import io.zrz.hai.type.HType;
+import io.zrz.hai.type.HTypeKind;
+import io.zrz.hai.type.HTypeToken;
+import io.zrz.hai.type.HTypeUtils;
 
 public class MMethodImpl extends AbstractMField implements MField {
 

@@ -2,10 +2,10 @@ package io.zrz.hai.runtime.compile.facade;
 
 import java.util.List;
 
-import io.zrz.hai.symbolic.HLoader;
-import io.zrz.hai.symbolic.HModule;
-import io.zrz.hai.symbolic.HTypeToken;
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.type.HLoader;
+import io.zrz.hai.type.HModule;
+import io.zrz.hai.type.HType;
+import io.zrz.hai.type.HTypeToken;
 
 public interface MViewContext {
 

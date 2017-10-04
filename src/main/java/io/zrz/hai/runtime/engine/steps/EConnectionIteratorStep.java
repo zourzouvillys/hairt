@@ -1,8 +1,8 @@
 package io.zrz.hai.runtime.engine.steps;
 
-import io.zrz.hai.haiscript.IndentPrintWriter;
-import io.zrz.hai.symbolic.expr.HExpr;
-import io.zrz.hai.symbolic.expr.HTupleInitExpr;
+import io.zrz.hai.expr.HExpr;
+import io.zrz.hai.expr.HTupleInitExpr;
+import io.zrz.hai.syntax.IndentPrintWriter;
 import lombok.Getter;
 
 public class EConnectionIteratorStep implements EStep {

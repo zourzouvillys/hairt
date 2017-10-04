@@ -2,7 +2,7 @@ package io.zrz.hai.runtime.engine.actions;
 
 import io.zrz.hai.runtime.ZValue;
 import io.zrz.hai.runtime.engine.steps.EStep;
-import io.zrz.hai.symbolic.HState;
+import io.zrz.hai.type.HState;
 import lombok.Value;
 
 @Value(staticConstructor = "of")

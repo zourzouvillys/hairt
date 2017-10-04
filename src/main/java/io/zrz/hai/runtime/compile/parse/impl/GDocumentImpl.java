@@ -8,11 +8,11 @@ import org.apache.commons.lang3.StringUtils;
 
 import com.google.common.base.Preconditions;
 
-import io.zrz.hai.haiscript.IndentPrintWriter;
 import io.zrz.hai.runtime.compile.facade.MView;
 import io.zrz.hai.runtime.compile.parse.GDocument;
 import io.zrz.hai.runtime.compile.parse.GExecutable;
-import io.zrz.hai.symbolic.HModule;
+import io.zrz.hai.syntax.IndentPrintWriter;
+import io.zrz.hai.type.HModule;
 import lombok.Getter;
 
 /**

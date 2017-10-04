@@ -2,16 +2,16 @@ package io.zrz.hai.runtime.engine.planner;
 
 import java.util.OptionalInt;
 
-import io.zrz.hai.haiscript.IndentPrintWriter;
+import io.zrz.hai.expr.AbstractHExprVisitor;
+import io.zrz.hai.expr.HConstExpr;
+import io.zrz.hai.expr.HExpr;
+import io.zrz.hai.expr.HVarExpr;
 import io.zrz.hai.runtime.ZAny;
 import io.zrz.hai.runtime.ZValue;
 import io.zrz.hai.runtime.compile.parse.impl.GFieldSelection;
 import io.zrz.hai.runtime.engine.steps.EExpr;
-import io.zrz.hai.symbolic.expr.AbstractHExprVisitor;
-import io.zrz.hai.symbolic.expr.HConstExpr;
-import io.zrz.hai.symbolic.expr.HExpr;
-import io.zrz.hai.symbolic.expr.HVarExpr;
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.syntax.IndentPrintWriter;
+import io.zrz.hai.type.HType;
 import lombok.Getter;
 
 public class SelectionArgResolver extends AbstractHExprVisitor<ZAny> {

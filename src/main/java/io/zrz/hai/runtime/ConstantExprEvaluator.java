@@ -1,8 +1,8 @@
 package io.zrz.hai.runtime;
 
-import io.zrz.hai.symbolic.expr.AbstractHExprVisitor;
-import io.zrz.hai.symbolic.expr.HConstExpr;
-import io.zrz.hai.symbolic.expr.HExpr;
+import io.zrz.hai.expr.AbstractHExprVisitor;
+import io.zrz.hai.expr.HConstExpr;
+import io.zrz.hai.expr.HExpr;
 
 public class ConstantExprEvaluator extends AbstractHExprVisitor<String> {
 

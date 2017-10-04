@@ -1,10 +1,10 @@
 package io.zrz.hai.runtime.engine.stack;
 
-import io.zrz.hai.symbolic.expr.AbstractHExprKindVoidVisitor;
-import io.zrz.hai.symbolic.expr.DelegatingHExprVoidVisitor;
-import io.zrz.hai.symbolic.expr.HBinaryExpr;
-import io.zrz.hai.symbolic.expr.HExpr;
-import io.zrz.hai.symbolic.expr.HExprKindVisitor;
+import io.zrz.hai.expr.AbstractHExprKindVoidVisitor;
+import io.zrz.hai.expr.DelegatingHExprVoidVisitor;
+import io.zrz.hai.expr.HBinaryExpr;
+import io.zrz.hai.expr.HExpr;
+import io.zrz.hai.expr.HExprKindVisitor;
 
 public class StackVisitor extends AbstractHExprKindVoidVisitor {
 

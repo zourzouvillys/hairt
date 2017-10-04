@@ -11,7 +11,7 @@ import org.neo4j.graphdb.Relationship;
 import com.google.common.collect.Iterators;
 
 import io.zrz.hai.runtime.ZValue;
-import io.zrz.hai.symbolic.HConnection;
+import io.zrz.hai.type.HConnection;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 

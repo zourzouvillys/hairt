@@ -8,6 +8,7 @@ import java.util.Objects;
 import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
+import io.zrz.hai.expr.HLambdaExpr;
 import io.zrz.hai.runtime.PathToken;
 import io.zrz.hai.runtime.ZAny;
 import io.zrz.hai.runtime.ZConnection;
@@ -42,16 +43,15 @@ import io.zrz.hai.runtime.engine.steps.EScalarStep;
 import io.zrz.hai.runtime.engine.steps.EStateExpr;
 import io.zrz.hai.runtime.engine.steps.EStep;
 import io.zrz.hai.runtime.engine.steps.EViewerStage;
-import io.zrz.hai.symbolic.HConnection;
-import io.zrz.hai.symbolic.HLink;
-import io.zrz.hai.symbolic.HMethod;
-import io.zrz.hai.symbolic.HState;
-import io.zrz.hai.symbolic.expr.HLambdaExpr;
-import io.zrz.hai.symbolic.type.HConnectionType;
-import io.zrz.hai.symbolic.type.HDeclType;
-import io.zrz.hai.symbolic.type.HEdgeType;
-import io.zrz.hai.symbolic.type.HNodeType;
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.type.HConnection;
+import io.zrz.hai.type.HConnectionType;
+import io.zrz.hai.type.HDeclType;
+import io.zrz.hai.type.HEdgeType;
+import io.zrz.hai.type.HLink;
+import io.zrz.hai.type.HMethod;
+import io.zrz.hai.type.HNodeType;
+import io.zrz.hai.type.HState;
+import io.zrz.hai.type.HType;
 import lombok.Getter;
 
 /**

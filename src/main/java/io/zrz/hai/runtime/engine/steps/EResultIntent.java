@@ -3,7 +3,7 @@ package io.zrz.hai.runtime.engine.steps;
 import java.util.HashMap;
 import java.util.Map;
 
-import io.zrz.hai.haiscript.IndentPrintWriter;
+import io.zrz.hai.syntax.IndentPrintWriter;
 import lombok.Getter;
 
 /**

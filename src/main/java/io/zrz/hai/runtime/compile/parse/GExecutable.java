@@ -6,7 +6,7 @@ import io.zrz.hai.runtime.compile.facade.MInputType;
 import io.zrz.hai.runtime.compile.facade.MViewContext;
 import io.zrz.hai.runtime.compile.facade.MViewKind;
 import io.zrz.hai.runtime.engine.EExecutionPlan;
-import io.zrz.hai.symbolic.type.HTupleType;
+import io.zrz.hai.type.HTupleType;
 
 /**
  * An executable within a document.

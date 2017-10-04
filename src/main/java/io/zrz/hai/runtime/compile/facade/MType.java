@@ -1,6 +1,6 @@
 package io.zrz.hai.runtime.compile.facade;
 
-import io.zrz.hai.symbolic.type.HType;
+import io.zrz.hai.type.HType;
 
 /**
  * a type logically maps to an object or interface. it exposes the backing types

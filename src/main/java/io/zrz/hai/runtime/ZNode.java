@@ -2,9 +2,9 @@ package io.zrz.hai.runtime;
 
 import javax.annotation.Nullable;
 
-import io.zrz.hai.symbolic.HConnection;
-import io.zrz.hai.symbolic.HLink;
-import io.zrz.hai.symbolic.HTypeUtils;
+import io.zrz.hai.type.HConnection;
+import io.zrz.hai.type.HLink;
+import io.zrz.hai.type.HTypeUtils;
 
 public interface ZNode extends ZPropertyContainer, ZEntity, ZObject {
 

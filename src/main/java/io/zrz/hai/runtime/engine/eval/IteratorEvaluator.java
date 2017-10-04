@@ -3,7 +3,7 @@ package io.zrz.hai.runtime.engine.eval;
 import com.google.common.collect.Iterables;
 
 import io.zrz.hai.runtime.engine.steps.EConnectionIteratorStep;
-import io.zrz.hai.symbolic.HConnection;
+import io.zrz.hai.type.HConnection;
 import lombok.extern.slf4j.Slf4j;
 
 /**

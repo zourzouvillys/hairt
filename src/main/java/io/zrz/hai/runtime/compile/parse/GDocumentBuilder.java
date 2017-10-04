@@ -30,6 +30,10 @@ import io.zrz.graphql.core.value.GQLObjectValue;
 import io.zrz.graphql.core.value.GQLStringValue;
 import io.zrz.graphql.core.value.GQLValueVisitor;
 import io.zrz.graphql.core.value.GQLVariableRef;
+import io.zrz.hai.expr.HExpr;
+import io.zrz.hai.expr.HExprFactory;
+import io.zrz.hai.expr.HTupleInitExpr;
+import io.zrz.hai.expr.utils.TupleInitExprBuilder;
 import io.zrz.hai.runtime.compile.facade.MArgument;
 import io.zrz.hai.runtime.compile.facade.MField;
 import io.zrz.hai.runtime.compile.facade.MInputType;
@@ -48,11 +52,7 @@ import io.zrz.hai.runtime.compile.parse.impl.GInlineSpreadSelection;
 import io.zrz.hai.runtime.compile.parse.impl.GSelectionImpl;
 import io.zrz.hai.runtime.compile.parse.impl.GSelectionKind;
 import io.zrz.hai.runtime.compile.parse.impl.TypeExtractor;
-import io.zrz.hai.symbolic.HTypeToken;
-import io.zrz.hai.symbolic.expr.HExpr;
-import io.zrz.hai.symbolic.expr.HExprFactory;
-import io.zrz.hai.symbolic.expr.HTupleInitExpr;
-import io.zrz.hai.symbolic.expr.utils.TupleInitExprBuilder;
+import io.zrz.hai.type.HTypeToken;
 import lombok.Getter;
 
 /**

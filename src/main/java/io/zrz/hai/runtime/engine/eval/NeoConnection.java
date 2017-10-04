@@ -24,14 +24,14 @@ public class NeoConnection implements IConnection {
   @Getter
   private final HConnection connection;
 
-  private final NeoStoreHandle handle;
+  // private final NeoStoreHandle handle;
 
   @Getter
   private final LinkedList<NeoEdge> added = new LinkedList<>();
   private final MutableLongObjectMap<NeoEdge> edges = LongObjectMaps.mutable.empty();
 
   public NeoConnection(NeoNode node, HConnection connection) {
-    this.handle = node.getHandle();
+    // this.handle = node.getHandle();
     this.node = node;
     this.connection = connection;
   }

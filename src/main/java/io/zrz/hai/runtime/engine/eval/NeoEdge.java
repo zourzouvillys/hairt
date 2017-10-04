@@ -6,18 +6,18 @@ import io.zrz.hai.runtime.ZValue;
 
 public class NeoEdge implements IEdge {
 
-  private final NeoConnection conn;
+  // private final NeoConnection conn;
   private final Relationship rel;
   private final NeoNode target;
 
   public NeoEdge(NeoConnection conn, Relationship rel) {
-    this.conn = conn;
+    // this.conn = conn;
     this.rel = rel;
     this.target = conn.getNode().getHandle().getNode(rel.getEndNode());
   }
 
   public NeoEdge(NeoConnection conn, NeoNode target) {
-    this.conn = conn;
+    // this.conn = conn;
     this.rel = null;
     this.target = target;
   }

@@ -71,9 +71,10 @@ public class AnyResolver extends AbstractHExprVisitor<ZAny> {
 
   @Override
   public ZAny visitBinary(HBinaryExpr expr) {
-    final ZAny left = expr.getLeft().accept(this);
-    final ZAny right = expr.getRight().accept(this);
-    return left;
+    // final ZAny left = expr.getLeft().accept(this);
+    // final ZAny right = expr.getRight().accept(this);
+    // return left;
+    throw new IllegalArgumentException();
   }
 
   @Override

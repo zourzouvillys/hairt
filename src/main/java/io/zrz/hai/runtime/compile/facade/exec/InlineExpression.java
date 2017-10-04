@@ -12,10 +12,10 @@ import io.zrz.hai.symbolic.expr.HMemberExpr;
 
 public class InlineExpression extends AbstractHExprVisitor<HExpr> {
 
-  private final HExecutable exec;
+  // private final HExecutable exec;
 
   public InlineExpression(HExecutable exec) {
-    this.exec = exec;
+    // this.exec = exec;
   }
 
   @Override
@@ -35,6 +35,8 @@ public class InlineExpression extends AbstractHExprVisitor<HExpr> {
         System.err.println(memberAccess.getMember());
         break;
       }
+      default:
+        break;
     }
 
     return null;
@@ -65,6 +67,8 @@ public class InlineExpression extends AbstractHExprVisitor<HExpr> {
     switch (expr.getExprKind()) {
       case INVOKE:
         return this.visitInvoke(expr);
+      default:
+        break;
     }
     return expr;
   }

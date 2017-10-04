@@ -2,7 +2,6 @@ package io.zrz.hai.runtime.engine.steps;
 
 import io.zrz.hai.haiscript.IndentPrintWriter;
 import io.zrz.hai.symbolic.HConnection;
-import io.zrz.hai.symbolic.expr.HExpr;
 import lombok.Getter;
 
 public class EConnectionStep implements EStep {
@@ -11,8 +10,6 @@ public class EConnectionStep implements EStep {
   private final HConnection connection;
   @Getter
   private final EStep source;
-  private HExpr first;
-  private HExpr last;
 
   public EConnectionStep(EStep context, HConnection member) {
     this.source = context;

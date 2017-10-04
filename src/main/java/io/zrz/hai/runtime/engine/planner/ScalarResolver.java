@@ -11,10 +11,7 @@ import io.zrz.hai.symbolic.expr.HExpr;
 
 public class ScalarResolver extends AbstractHExprVisitor<ZValue> {
 
-  private final EFrameContext ctx;
-
   public ScalarResolver(EFrameContext ctx) {
-    this.ctx = ctx;
   }
 
   @Override

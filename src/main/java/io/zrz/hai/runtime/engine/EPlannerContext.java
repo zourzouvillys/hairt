@@ -53,7 +53,6 @@ import io.zrz.hai.symbolic.type.HEdgeType;
 import io.zrz.hai.symbolic.type.HNodeType;
 import io.zrz.hai.symbolic.type.HType;
 import lombok.Getter;
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * context for performing planning of an executable, including @live, @batch,
@@ -64,7 +63,6 @@ import lombok.extern.slf4j.Slf4j;
  *
  */
 
-@Slf4j
 public class EPlannerContext {
 
   private final GExecutableImpl exec;
@@ -705,7 +703,7 @@ public class EPlannerContext {
 
     @Getter
     private final EConnectionStep step;
-    private ZEdge target;
+    // private ZEdge target;
 
     private final Map<ZAny, StubConnectionEdge> indexed = new HashMap<>();
     private final List<StubConnectionEdge> added = new LinkedList<>();

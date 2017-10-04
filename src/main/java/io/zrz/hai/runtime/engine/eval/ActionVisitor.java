@@ -61,6 +61,19 @@ public class ActionVisitor implements EActionVisitor<Void> {
         case STRING:
           node.setProperty(action.getState().getName(), ZValue.from((String) value.getValue()));
           return null;
+        case ARRAY:
+        case BOOLEAN:
+        case DECL:
+        case DOUBLE:
+        case INT:
+        case INTERSECTION:
+        case LAMBDA:
+        case NEVER:
+        case TUPLE:
+        case UNION:
+        case VOID:
+        case WILDCARD:
+          break;
       }
 
       throw new IllegalArgumentException("unable to calculate value for " + value.getClass());

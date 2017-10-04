@@ -10,9 +10,9 @@ import lombok.Getter;
 
 public class MConverterImpl implements MConverter {
 
-  private final MViewContextImpl ctx;
-  private final MDeclTypeImpl type;
-  private final HMethod method;
+  // private final MViewContextImpl ctx;
+  // private final MDeclTypeImpl type;
+  // private final HMethod method;
 
   @Getter
   private final MArgument inputType;
@@ -25,9 +25,9 @@ public class MConverterImpl implements MConverter {
    */
 
   public MConverterImpl(MViewContextImpl ctx, MDeclTypeImpl type, HMethod method) {
-    this.ctx = ctx;
-    this.type = type;
-    this.method = method;
+    // this.ctx = ctx;
+    // this.type = type;
+    // this.method = method;
 
     final String pname = method.getExecutable().getParameters().get(0).getName();
     final HType ptype = method.getExecutable().getParameters().get(0).getType();

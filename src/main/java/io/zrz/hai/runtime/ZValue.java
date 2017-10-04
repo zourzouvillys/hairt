@@ -64,6 +64,16 @@ public class ZValue implements ZAny {
         return Json.createValue((long) this.value);
       case DOUBLE:
         return Json.createValue((double) this.value);
+      case ARRAY:
+      case DECL:
+      case INTERSECTION:
+      case LAMBDA:
+      case NEVER:
+      case TUPLE:
+      case UNION:
+      case VOID:
+      case WILDCARD:
+        break;
     }
     throw new IllegalArgumentException(this.type.getTypeKind().toString());
   }
@@ -79,6 +89,16 @@ public class ZValue implements ZAny {
         return ZKind.LONG;
       case DOUBLE:
         return ZKind.DOUBLE;
+      case ARRAY:
+      case DECL:
+      case INTERSECTION:
+      case LAMBDA:
+      case NEVER:
+      case TUPLE:
+      case UNION:
+      case VOID:
+      case WILDCARD:
+        break;
     }
     throw new IllegalArgumentException(this.type.getTypeKind().toString());
   }

@@ -100,6 +100,11 @@ public class GAnnotations {
           case SKIP:
           case INCLUDE:
             return String.format("@%s(if: %s)", this.getName(), this.condition());
+          case DEFER:
+          case LIVE:
+          case STREAM:
+          case EXPORT:
+            break;
         }
         throw new IllegalArgumentException();
       }
@@ -143,6 +148,12 @@ public class GAnnotations {
         switch (kind) {
           case EXPORT:
             return String.format("@%s(as: \"%s\")", this.getName(), this.as());
+          case DEFER:
+          case INCLUDE:
+          case LIVE:
+          case SKIP:
+          case STREAM:
+            break;
         }
         throw new IllegalArgumentException();
       }

@@ -36,8 +36,13 @@ public class AssignableResolver extends AbstractHExprVisitor<EAssignableTarget> 
         return EAssignableTarget.member(instance, (HState) member);
       case CONNECTION:
         return EAssignableTarget.member(instance, (HConnection) member);
+      case AMBIENT:
       case LINK:
         return EAssignableTarget.member(instance, (HLink) member);
+      case METHOD:
+      case PERMISSION:
+      case SELECTION:
+        break;
     }
     throw new IllegalArgumentException(member.getMemberKind().toString());
   }

@@ -19,7 +19,6 @@ import io.zrz.hai.runtime.compile.facade.MViewKind;
 import io.zrz.hai.runtime.compile.facade.exec.MFieldExpression;
 import io.zrz.hai.symbolic.HLoader;
 import io.zrz.hai.symbolic.HMember;
-import io.zrz.hai.symbolic.HMethod;
 import io.zrz.hai.symbolic.HModule;
 import io.zrz.hai.symbolic.HTypeToken;
 import io.zrz.hai.symbolic.HTypeUtils;
@@ -89,7 +88,7 @@ public class MViewContextImpl implements MViewContext {
     return this.inputs.get(type, () -> this._input(type));
   }
 
-  private MOutputType _output(HDeclType type) {
+  private MOutputType _decloutput(HDeclType type) {
     switch (type.getDeclKind()) {
       case NODE:
       case VIEW:
@@ -134,10 +133,6 @@ public class MViewContextImpl implements MViewContext {
 
   public MOutputType _output(HType type) {
 
-    if (type instanceof HDeclType) {
-      return this._output(type);
-    }
-
     switch (type.getTypeKind()) {
       case STRING:
       case INT:
@@ -148,6 +143,15 @@ public class MViewContextImpl implements MViewContext {
         return new MVoidType(this);
       case ARRAY:
         return new MArrayType(this, this.output(HTypeUtils.componentType(type)));
+      case DECL:
+        return this._decloutput((HDeclType) this);
+      case INTERSECTION:
+      case LAMBDA:
+      case NEVER:
+      case TUPLE:
+      case UNION:
+      case WILDCARD:
+        break;
     }
 
     throw new IllegalArgumentException(type.getTypeKind().toString());
@@ -309,7 +313,7 @@ public class MViewContextImpl implements MViewContext {
 
   private void inline(MMethodImpl field) {
 
-    final HMethod method = field.getMember();
+    // final HMethod method = field.getMember();
 
     new MFieldExpression(field).generate();
 

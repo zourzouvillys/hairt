@@ -6,7 +6,6 @@ import io.zrz.hai.runtime.ZValue;
 import io.zrz.hai.runtime.engine.steps.EConnectionIteratorStep;
 import io.zrz.hai.symbolic.HConnection;
 import io.zrz.hai.symbolic.HLink;
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * tracks work context information to generate a version clock.
@@ -29,17 +28,16 @@ import lombok.extern.slf4j.Slf4j;
  *
  */
 
-@Slf4j
 public class NeoWorkContext implements NeoStoreContext {
 
-  private final ENeoExecutionContext ctx;
+  // private final ENeoExecutionContext ctx;
 
   // --------------------------------------------------------------------------------
   //
   // --------------------------------------------------------------------------------
 
   NeoWorkContext(ENeoExecutionContext ctx) {
-    this.ctx = ctx;
+    // this.ctx = ctx;
   }
 
   // --------------------------------------------------------------------------------

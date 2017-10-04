@@ -54,13 +54,11 @@ import io.zrz.hai.symbolic.expr.HExprFactory;
 import io.zrz.hai.symbolic.expr.HTupleInitExpr;
 import io.zrz.hai.symbolic.expr.utils.TupleInitExprBuilder;
 import lombok.Getter;
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * Takes a GraphQL parsed document, and converts to a GDocument.
  */
 
-@Slf4j
 public class GDocumentBuilder {
 
   private final MView view;

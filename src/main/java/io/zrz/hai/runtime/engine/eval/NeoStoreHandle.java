@@ -44,7 +44,7 @@ public class NeoStoreHandle {
    * the underlying store.
    */
 
-  private final NeoStore store;
+  // private final NeoStore store;
 
   /**
    * the version we are reading.
@@ -54,7 +54,7 @@ public class NeoStoreHandle {
    *
    */
 
-  private final SnapshotHandle readver;
+  // private final SnapshotHandle readver;
 
   /**
    *
@@ -67,8 +67,8 @@ public class NeoStoreHandle {
    */
 
   public NeoStoreHandle(NeoStore store, SnapshotHandle readver) {
-    this.store = store;
-    this.readver = readver;
+    // this.store = store;
+    // this.readver = readver;
   }
 
   /**

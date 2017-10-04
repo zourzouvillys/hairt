@@ -4,10 +4,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.function.Consumer;
 
-import io.joss.graphql.core.doc.GQLDocument;
-import io.joss.graphql.core.doc.GQLFieldSelection;
-import io.joss.graphql.core.doc.GQLSelection;
-import io.joss.graphql.core.value.GQLValue;
+import io.zrz.graphql.core.doc.GQLDocument;
+import io.zrz.graphql.core.doc.GQLFieldSelection;
+import io.zrz.graphql.core.doc.GQLSelection;
+import io.zrz.graphql.core.value.GQLValue;
 import io.zrz.hai.runtime.compile.facade.MField;
 import io.zrz.hai.runtime.compile.facade.MOutputType;
 import io.zrz.hai.runtime.compile.facade.MView;

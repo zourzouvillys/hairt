@@ -42,8 +42,9 @@ dependencies {
   compile 'com.google.guava:guava:23.1-jre'    
 
 	compile group: 'io.zrz.hai', name: 'hailang', version: '0.1-SNAPSHOT'
-  compile group: 'io.joss.graphql', name: "graphql-core", version: '1.0-SNAPSHOT'
-  compile group: 'io.joss.graphql', name: "graphql-schema", version: '1.0-SNAPSHOT'
+	
+  //compile group: 'io.zrz.graphql', name: "graphql-core", version: '1.0-SNAPSHOT'
+	compile 'io.zrz.graphql:graphql-core:1.0-20171004080908'
 
 	compile group: 'javax.json', name: 'javax.json-api', version: '1.1'
 
@@ -58,8 +59,7 @@ dependencies {
 	testImplementation 'junit:junit:4.12'
 	testImplementation 'ch.qos.logback:logback-classic:1.2.2'
 	
-	
-	
+	// neo4j for storage API
   compile 'org.neo4j:neo4j-community:3.2.5'
 	
 	testImplementation 'org.neo4j:neo4j-io:3.2.5:tests@jar'

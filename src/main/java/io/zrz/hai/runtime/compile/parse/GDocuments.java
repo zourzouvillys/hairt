@@ -2,8 +2,8 @@ package io.zrz.hai.runtime.compile.parse;
 
 import java.nio.file.Path;
 
-import io.joss.graphql.core.doc.GQLDocument;
-import io.joss.graphql.core.parser.GQLParser;
+import io.zrz.graphql.core.doc.GQLDocument;
+import io.zrz.graphql.core.parser.GQLParser;
 import io.zrz.hai.runtime.compile.facade.MView;
 import io.zrz.hai.runtime.compile.parse.impl.GDocumentImpl;
 

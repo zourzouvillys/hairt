@@ -1,9 +1,9 @@
 package io.zrz.hai.runtime.compile.parse.impl;
 
-import io.joss.graphql.core.lang.GQLTypeVisitor;
-import io.joss.graphql.core.types.GQLDeclarationRef;
-import io.joss.graphql.core.types.GQLListType;
-import io.joss.graphql.core.types.GQLNonNullType;
+import io.zrz.graphql.core.lang.GQLTypeVisitor;
+import io.zrz.graphql.core.types.GQLDeclarationRef;
+import io.zrz.graphql.core.types.GQLListType;
+import io.zrz.graphql.core.types.GQLNonNullType;
 import io.zrz.hai.runtime.compile.facade.MInputType;
 import io.zrz.hai.runtime.compile.facade.MViewContext;
 
